@@ -28,7 +28,7 @@ $(function() {
     );
   });
 
-  $(".create-form").on("submit", function(event) {
+  $("#send").on("click", function(event) {
     // Make sure to preventDefault on a submit event.
     event.preventDefault();
 
